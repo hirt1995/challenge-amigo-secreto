@@ -17,12 +17,12 @@ Aplicación web para organizar sorteos de "Amigo Secreto" de forma sencilla y se
 2. Repite el proceso para todos los participantes.
 3. Haz clic en "Sortear" para elegir al amigo secreto.
 4. Si lo deseas, reinicia el juego para empezar de nuevo.
-
-![Logo del proyecto](assets/Add_friends.PNG)
-![Logo del proyecto](assets/ramdom_winner.PNG)
+   
 ![Logo del proyecto](assets/start_page.PNG)
 
+![Logo del proyecto](assets/Add_friends.PNG)
 
+![Logo del proyecto](assets/ramdom_winner.PNG)
 
 ## Estructura del proyecto
 
