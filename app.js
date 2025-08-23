@@ -61,13 +61,15 @@ function agregarAmigo() {
         const nombre = inputAmigo.value.trim();
         
         if (!validarNombre(nombre)) {
-            throw new Error('Nombre inválido. Solo se permiten letras, espacios y apóstrofes'), inputAmigo.value = '';
+            inputAmigo.value = ''
+            throw new Error('Nombre inválido. Solo se permiten letras, espacios y apóstrofes');
         }
         
         const nombreNormalizado = normalizarNombre(nombre);
         
         if (listaAmigos.some(amigo => normalizarNombre(amigo) === nombreNormalizado)) {
-            throw new Error('Este nombre ya está en la lista'), inputAmigo.value = '';
+            inputAmigo.value = ''
+            throw new Error('Este nombre ya está en la lista');
         }
 
         listaAmigos.push(nombreNormalizado);
